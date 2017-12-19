@@ -789,9 +789,9 @@ span.touch-menu{display: block;}
     position: absolute;
     bottom: 20px;
     right: 0;
-    background: #2eb7e0b0;
+    background: rgba(46, 183, 224, 0.7);
     padding: 20px;
-    color: #ffff;
+    color: #ffffff;
     font-family: 'Monotype Corsiva';
     font-size: 39px;
     max-width: 345px;
