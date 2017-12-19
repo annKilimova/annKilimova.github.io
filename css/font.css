@@ -1,5 +1,8 @@
 @font-face{
-	font-family: Monotype Corsiva;
-	src: url(..fonts/Monotype Corsiva.ttf);
+font-family: 'Monotype Corsiva';
+src: url('../fonts/MonotypeCorsiva/MonotypeCorsiva.eot');
+src: local('☺'), url('../fonts/MonotypeCorsiva/MonotypeCorsiva.woff') format('woff'), url('../fonts/MonotypeCorsiva/MonotypeCorsiva.ttf') format('truetype'), url('../fonts/MonotypeCorsiva/MonotypeCorsiva.svg') format('svg');
+font-weight: normal;
+font-style: normal;
 }
 
