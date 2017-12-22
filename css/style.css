@@ -122,11 +122,23 @@ header::after { /*Если не поставить, то: http://prntscr.com/h8f
 
 .aboutUs .gratitude{padding-top: 20px;}
 
-.designer img{
+.header .flag{display: none;}
+
+.header .name_flag{
 	position: absolute;
 	z-index: 1;
 	top: 0;
 	left: -1px;
+}
+
+.default .name_flag{display: none;}
+
+.default .flag{
+	display: block;
+	position: absolute;
+	z-index: 1;
+	top: 3px;
+	left: 10px;
 }
 
 .slider{
@@ -1081,6 +1093,8 @@ span.touch-menu{display: block;}
 
 @media only screen and (max-width: 767px){
 
+header {padding-bottom: 51px;}
+
 .alone_h {font-size: 46px;}
 
 .h_panel{
@@ -1270,6 +1284,9 @@ span.touch-menu{display: block;}
 }
 
 @media only screen and (max-width: 530px){
+
+.default .flag{top: 10px;}
+
 .end span {
     padding-top: 0;
     max-width: 315px;
@@ -1280,7 +1297,9 @@ span.touch-menu{display: block;}
 
 .orph_designer img {top: 10px;}
 
-.header {padding-bottom: 53px;}
+.header {padding-bottom: 50px;}
+
+.default{padding-bottom: 0;}
 
 .contacts {padding-top: 35px;}
 
