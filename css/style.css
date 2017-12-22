@@ -591,8 +591,8 @@ footer{
 	text-align: center;
 	text-transform: initial;
 	padding-bottom: 20px;
-	padding-top: 500px; 
-	margin-top: -500px;
+	padding-top: 170px; 
+	margin-top: -170px;
 	line-height: 40px;
 }
 
@@ -600,10 +600,10 @@ footer{
 	font-family: 'MontserratAlternates-Regular', sans-serif;
 	font-size: 20px;
 	margin-bottom: 45px;
-    color: #2e3192;
-    text-transform: uppercase;
-    font-weight: bold;
-    text-align: left;
+    	color: #2e3192;
+    	text-transform: uppercase;
+    	font-weight: bold;
+   	text-align: left;
 }
 
 .gratitude_1 .orph_info h2{
@@ -633,7 +633,7 @@ footer{
 
 .menu .fa{    
 	font-size: 50px;
-    color: #ffffff;
+   	color: #ffffff;
 }
 
 .menu .fa-chevron-down{font-size: 14px;}
@@ -655,7 +655,7 @@ footer{
 }
 .menu .ul_h{
 	text-align: center;
-    border-radius: 5px;
+   	border-radius: 5px;
 	background: #ffec41; 
 	background: -moz-linear-gradient(top,  #ffec41 0%, #edcf25 33%, #a08510 100%);
 	background: -webkit-linear-gradient(top,  #ffec41 0%,#edcf25 33%,#a08510 100%);
@@ -668,10 +668,10 @@ footer{
 	display: inline-block;
 	position: relative;
 	font-family: 'MontserratAlternates-Regular', sans-serif;
-    font-size: 17px;
-    font-weight: bold;
-    padding: 10px 6px;
-    line-height: 18px;
+    	font-size: 17px;
+    	font-weight: bold;
+    	padding: 10px 6px;
+    	line-height: 18px;
  }
 
 .ul_h li a{color: #ffffff;}
