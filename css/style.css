@@ -97,7 +97,7 @@ header::after { /*Если не поставить, то: http://prntscr.com/h8f
 	top: 0;
 	width: 100%;
 	z-index: 1;
-	background: #04274cdb;
+	background: rgba(15, 37, 78, 0.9);
 }
 
 .wrapper{
