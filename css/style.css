@@ -723,7 +723,7 @@ footer{
     width: auto;
     left:0; 
 	top: 100%;
-	background:#f2d82eb8; 
+	background: rgba(207, 185, 63, 0.8); 
 	text-align: left;
 	border-radius: 0 0 10px 10px;
     z-index: 1;
