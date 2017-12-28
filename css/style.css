@@ -700,8 +700,8 @@ footer{
 	font-family: 'MontserratAlternates-Regular', sans-serif;
     font-size: 16px;
     color: #0e89dd;
-    padding-top: 300px;
-    margin-top: -300px;
+    /*padding-top: 300px;
+    margin-top: -300px;*/
 }
 
 .evidence .drop3{
