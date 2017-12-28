@@ -700,8 +700,8 @@ footer{
 	font-family: 'MontserratAlternates-Regular', sans-serif;
     font-size: 16px;
     color: #0e89dd;
-    /*padding-top: 300px;
-    margin-top: -300px;*/
+    padding-top: 300px;
+    margin-top: -300px;
 }
 
 .evidence .drop3{
@@ -847,7 +847,12 @@ span.touch-menu{display: block;}
 	font-family: 'El Messiri', sans-serif;
 }
 
-
+.conteiner>a{
+	position:relative;
+	top: 0;
+	left: 0;
+	z-index: 2;
+}
 
 .conteiner>a:hover{text-decoration: underline;}
 
