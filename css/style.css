@@ -97,7 +97,7 @@ header::after { /*Если не поставить, то: http://prntscr.com/h8f
 	top: 0;
 	width: 100%;
 	z-index: 1;
-	background: #04274cdb;
+	background: rgba(15, 37, 78, 0.9);
 }
 
 .wrapper{
@@ -591,8 +591,8 @@ footer{
 	text-align: center;
 	text-transform: initial;
 	padding-bottom: 20px;
-	padding-top: 1000px; 
-	margin-top: -1000px;
+	padding-top: 170px; 
+	margin-top: -170px;
 	line-height: 40px;
 }
 
@@ -600,10 +600,10 @@ footer{
 	font-family: 'MontserratAlternates-Regular', sans-serif;
 	font-size: 20px;
 	margin-bottom: 45px;
-    color: #2e3192;
-    text-transform: uppercase;
-    font-weight: bold;
-    text-align: left;
+    	color: #2e3192;
+    	text-transform: uppercase;
+    	font-weight: bold;
+   	text-align: left;
 }
 
 .gratitude_1 .orph_info h2{
@@ -633,7 +633,7 @@ footer{
 
 .menu .fa{    
 	font-size: 50px;
-    color: #ffffff;
+   	color: #ffffff;
 }
 
 .menu .fa-chevron-down{font-size: 14px;}
@@ -655,7 +655,7 @@ footer{
 }
 .menu .ul_h{
 	text-align: center;
-    border-radius: 5px;
+   	border-radius: 5px;
 	background: #ffec41; 
 	background: -moz-linear-gradient(top,  #ffec41 0%, #edcf25 33%, #a08510 100%);
 	background: -webkit-linear-gradient(top,  #ffec41 0%,#edcf25 33%,#a08510 100%);
@@ -668,10 +668,10 @@ footer{
 	display: inline-block;
 	position: relative;
 	font-family: 'MontserratAlternates-Regular', sans-serif;
-    font-size: 17px;
-    font-weight: bold;
-    padding: 10px 6px;
-    line-height: 18px;
+    	font-size: 17px;
+    	font-weight: bold;
+    	padding: 10px 6px;
+    	line-height: 18px;
  }
 
 .ul_h li a{color: #ffffff;}
@@ -723,7 +723,7 @@ footer{
     width: auto;
     left:0; 
 	top: 100%;
-	background:#f2d82eb8; 
+	background: rgba(207, 185, 63, 0.8); 
 	text-align: left;
 	border-radius: 0 0 10px 10px;
     z-index: 1;
@@ -847,7 +847,12 @@ span.touch-menu{display: block;}
 	font-family: 'El Messiri', sans-serif;
 }
 
-
+.conteiner>a{
+	position:relative;
+	top: 0;
+	left: 0;
+	z-index: 2;
+}
 
 .conteiner>a:hover{text-decoration: underline;}
 
@@ -1025,7 +1030,7 @@ span.touch-menu{display: block;}
 .aboutUs .event:first-child,
 .aboutUs .event:last-child{
 	float: none;
-	width: 400px;
+	width: 405px;
     margin: 0 auto;
 }
 
@@ -1144,10 +1149,13 @@ header {padding-bottom: 51px;}
 
 .menu .ul_h{
 	border-radius: 2px;
-    margin-top: 145px;
-    text-align: left;
-    background: #82b3da;
+   	margin-top: 125px;
+   	margin-bottom: 20px;
+    	text-align: left;
+    	background: #82b3da;
 }
+
+.default .menu .ul_h{margin-top: 70px;}
 
 .menu .ul_h li{
 	display: block;
