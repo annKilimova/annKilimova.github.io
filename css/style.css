@@ -102,10 +102,6 @@ header::after { /*Если не поставить, то: http://prntscr.com/h8f
     	overflow-y: scroll;
 }
 
-::-webkit-scrollbar { 
-    display: none; 
-}
-
 .wrapper{
 	max-width: 980px;
 	margin: 0 auto;
