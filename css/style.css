@@ -98,6 +98,8 @@ header::after { /*Если не поставить, то: http://prntscr.com/h8f
 	width: 100%;
 	z-index: 1;
 	background: rgba(15, 37, 78, 0.9);
+	max-height: 100vh;
+    	overflow: scroll;
 }
 
 .wrapper{
