@@ -135,13 +135,7 @@ header::after { /*Если не поставить, то: http://prntscr.com/h8f
 
 .default .name_flag{display: none;}
 
-.default .flag{
-	display: block;
-	position: absolute;
-	z-index: 1;
-	top: 3px;
-	left: 10px;
-}
+.default .flag{display: block;}
 
 .slider{
 	background: url(../images/bg_h.png) no-repeat;
@@ -624,7 +618,10 @@ footer{
 
 .orph_info p:last-child{font-weight: bold;}
 
-.designer{overflow: hidden;}
+.designer{
+	overflow: hidden;
+	float: left;
+}
 
 /*menu_b*/
 .menu:after{
@@ -1294,8 +1291,6 @@ header {padding-bottom: 51px;}
 }
 
 @media only screen and (max-width: 530px){
-
-.default .flag{top: 10px;}
 
 .end span {
     padding-top: 0;
