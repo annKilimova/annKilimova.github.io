@@ -99,7 +99,7 @@ header::after { /*Если не поставить, то: http://prntscr.com/h8f
 	z-index: 1;
 	background: rgba(15, 37, 78, 0.9);
 	max-height: 100vh;
-    	overflow-y: scroll;
+    	overflow-y: auto;
 }
 
 .wrapper{
