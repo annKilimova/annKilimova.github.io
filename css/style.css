@@ -337,9 +337,12 @@ header::after { /*Если не поставить, то: http://prntscr.com/h8f
     line-height: 20px;
 }
 
-.social_text{display: block;}
+.social_text{
+	display: block;
+	overflow: hidden;
+}
 
-.button_soc{overflow: hidden;}
+.title_h{padding-top: 5px;}
 
 .title_h a{
 	font-size: 21px;
