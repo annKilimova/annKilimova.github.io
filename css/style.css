@@ -1099,7 +1099,11 @@ span.touch-menu{display: block;}
 
 @media only screen and (max-width: 767px){
 
-header {padding-bottom: 61px;}
+header {padding-bottom: 0;}
+	
+.header .menu {padding-bottom: 130px;}
+	
+.default .menu {padding-bottom: 0;}
 
 .alone_h {font-size: 46px;}
 
@@ -1316,10 +1320,6 @@ header {padding-bottom: 61px;}
 
 @media only screen and (max-width: 480px){
 	
-.header .menu {padding-bottom: 130px;}
-	
-.default .menu {padding-bottom: 0;}
-
 #topNav {
     margin: 55px 2% 0 2%;
     max-width: 100%;
