@@ -1316,9 +1316,9 @@ header {padding-bottom: 61px;}
 
 @media only screen and (max-width: 480px){
 	
-.header {
-    padding-bottom: 130px;
-}
+.header .menu {padding-bottom: 70px;}
+	
+.default .menu {padding-bottom: 0;}
 
 #topNav {
     margin: 55px 2% 0 2%;
