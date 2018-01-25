@@ -1101,11 +1101,11 @@ span.touch-menu{display: block;}
 
 header {padding-bottom: 0;}
 	
-.header .menu {padding-bottom: 130px;}
+.header .touch-menu {padding-bottom: 130px;}
 	
-.header .menu:active {padding-bottom: 0;}
+.header .touch-menu:active {padding-bottom: 0;}
 	
-.default .menu {padding-bottom: 0;}
+.default .touch-menu {padding-bottom: 0;}
 
 .alone_h {font-size: 46px;}
 
