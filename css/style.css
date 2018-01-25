@@ -410,7 +410,6 @@ header::after { /*Если не поставить, то: http://prntscr.com/h8f
 .charter{
 	width: 49%;
 	float: left;
-	overflow: hidden;
 }
 
 .ch_right{width: 25%;}
