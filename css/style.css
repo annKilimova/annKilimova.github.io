@@ -547,11 +547,9 @@ footer{
 
 .gratitude_1 .scale{max-width: 322px;}
 
-.orph_info .scale{max-width: 300px;}
+/*.orph_info .scale{max-width: 300px;}*/
 
 .orph_info .scale_many{max-width: 595px;}
-
-.orph_info .scale_alone{max-width: 768px;}
 
 .orph_main, .orph_info{margin-top: 0;}
 
@@ -774,11 +772,13 @@ span.touch-menu{display: block;}
 .gratitude .right-block{width: 78%}
 
 .all_events img{
-	width: auto;
+	width: 185px;
 	float: left;
 	padding-right: 20px;
 	padding-bottom: 30px;
 }
+
+.events .all_events img{width: 245px;}
 
 .aboutUs .all_events img{width: 200px;}
 
