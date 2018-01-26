@@ -99,7 +99,6 @@ header::after { /*Если не поставить, то: http://prntscr.com/h8f
 	z-index: 1;
 	background: rgba(15, 37, 78, 0.9);
 	max-height: 100vh;
-    	overflow-y: auto;
 	padding: 3px 0;
 }
 
@@ -1107,6 +1106,8 @@ header {padding-bottom: 0;}
 .header .touch-menu:active {padding-bottom: 0;}
 	
 .default .touch-menu {padding-bottom: 0;}
+	
+.header.default{overflow-y: auto;}
 
 .alone_h {font-size: 46px;}
 
