@@ -1263,6 +1263,8 @@ header {padding-bottom: 0;}
     bottom: 10px;
     line-height: 22px;
 }
+	
+.no_about .up_img{font-size: 21px;}
 
 .right-block {width: 41%;}
 
