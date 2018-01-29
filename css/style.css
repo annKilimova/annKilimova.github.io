@@ -1369,6 +1369,8 @@ header {padding-bottom: 0;}
     max-width: 180px;
     line-height: 20px;
 }
+	
+.no_about .up_img{display: none;}
 
 .right-block, .gratitude .right-block{
 	float: none;
