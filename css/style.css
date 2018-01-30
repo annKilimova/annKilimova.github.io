@@ -585,8 +585,6 @@ footer{
 	text-align: center;
 	text-transform: initial;
 	padding-bottom: 20px;
-	padding-top: 170px; 
-	margin-top: -170px;
 	line-height: 40px;
 }
 
@@ -939,6 +937,11 @@ span.touch-menu{display: block;}
 .menu_mini li a{color: #003f5f;}
 
 .menu_mini li a:hover{color: #003f5f9e;}
+
+#actions{
+	padding-top: 170px; 
+	margin-top: -170px;
+}
 
 .breadcrumbs{
 	border-top: 1px solid #636363;
