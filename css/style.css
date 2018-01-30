@@ -1117,6 +1117,8 @@ header {padding-bottom: 0;}
 .header.default{overflow-y: auto;}
 	
 .menu_mini{padding-top: 15px;}
+	
+.gratitude, .gratitude_1 {padding-top: 20px;}
 
 .alone_h {font-size: 46px;}
 
@@ -1325,8 +1327,6 @@ header {padding-bottom: 0;}
 .default{padding-bottom: 0;}
 
 .contacts {padding-top: 35px;}
-
-.gratitude, .gratitude_1 {padding-top: 20px;}
 
 }
 
