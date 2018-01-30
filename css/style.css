@@ -1105,8 +1105,6 @@ span.touch-menu{display: block;}
 
 .orph_info .all_events h2 {text-align: left;}
 	
-.contacts h2 {width: 300px;}
-
 .footer {padding-bottom: 20px;}
 
 }
@@ -1334,6 +1332,8 @@ header {padding-bottom: 0;}
 .orph_designer img {top: 10px;}
 
 .default{padding-bottom: 0;}
+	
+.contacts h2 {width: 300px;}
 
 }
 
