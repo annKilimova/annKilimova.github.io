@@ -43,6 +43,11 @@ a{text-decoration: none;}
 
 a:hover{cursor: pointer;}
 
+a:focus{
+	border-radius: none;
+	outline: none;
+}
+
 body{
 	line-height: 1;
 	margin: 0;/*имеет только margin*/
