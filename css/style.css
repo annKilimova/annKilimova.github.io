@@ -710,6 +710,7 @@ footer{
 	font-size: 25px;
 	padding-left: 5px;
 	vertical-align: middle;
+	cursor: pointer;
 }
 
 .drop, .drop ul {
