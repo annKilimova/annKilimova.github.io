@@ -497,7 +497,7 @@ footer{
 
 .text_img p{
 	line-height: 20px;
-	color:  #ffffff;
+	color:  #ffffff !important;
 }
 
 .in_footer h2{
