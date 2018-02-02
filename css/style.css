@@ -455,6 +455,7 @@ header::after { /*Если не поставить, то: http://prntscr.com/h8f
 .like:active{background: #1f1c44;}
 
 /*.like a:active:before{content: "\f00c";}*/
+.like.active a:before{content: "\f00c";}
 
 .amount a{color: #231f20;}
 
