@@ -936,7 +936,8 @@ span.touch-menu{display: block;}
 
 .wrap_event .menu_mini{
 	font-family: 'MontserratAlternates-Regular', sans-serif;
-	padding: 0 15px;
+	margin: 0 15px;
+    	border-bottom: 1px solid #003f5f;
 }
 
 .menu_mini li{
