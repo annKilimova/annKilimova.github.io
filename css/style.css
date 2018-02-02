@@ -495,10 +495,9 @@ footer{
 
 .text_img{overflow: hidden;}
 
-.text_img p{
-	line-height: 20px;
-	color:  #ffffff !important;
-}
+.text_img p{line-height: 20px;}
+
+.forColor{color:  #ffffff;}
 
 .in_footer h2{
 	font-family: 'Monotype Corsiva';
