@@ -1022,6 +1022,112 @@ span.touch-menu{display: block;}
 .inside>li:last-child, 
 .intra li:last-child{padding-bottom: 0;}
 
+@media only screen and (max-width: 1024px){
+header {padding-bottom: 61px;}
+
+.header .touch-menu:active,
+.default .touch-menu {padding-bottom: 0;}
+	
+.header.default{overflow-y: auto;}
+
+.menu .nav_h{display: none;}
+
+.menu .ul_h{
+	border-radius: 2px;
+   	margin-bottom: 20px;
+    text-align: left;
+    background: #82b3da;
+}
+
+.header .menu .ul_h{margin-top: 135px;}
+
+.default .menu .ul_h{margin-top: 0px;}
+
+.menu .ul_h li{
+	display: block;
+}
+
+.menu .ul_h>li{
+	border-bottom: 1px solid #262262;
+	padding: 0;
+}
+
+.menu .ul_h li:last-child{border-bottom: none;}
+
+.ul_h li a {
+    color: #262262;
+    text-transform: lowercase;
+    letter-spacing: 1px;
+    font-size: 19px;
+}
+
+.ul_h .a_first{
+	width: 250px;
+    display: inline-block;
+    border-right: 1px solid #262262;
+    margin: 10px 6px;
+}
+
+.drop{
+	position: static;
+	background: #262262;
+    border-radius: 0;
+}
+
+.drop ul{text-align: center;}
+
+.drop li a{
+	color: #82b3da;
+    font-size: 14px;
+    text-transform: uppercase;
+    vertical-align: middle;
+}
+
+.drop li a:first-child{
+	display: inline-block;
+	width: 250px;
+}
+
+.touch-menu{
+	display: block;
+	margin: 0 0 0 89%;
+	text-align: center;
+}
+
+.menu .nav_h{
+	float: none;
+	margin: 0 auto;
+	width: 300px;
+}
+
+.ul_h>li a:hover {color: #b2b385f0;}
+
+.ul_h .drop ul li a {
+	color: #ff9900f0;
+    font-style: italic;
+}
+
+.menu .drop .fa {
+    font-size: 14px;
+    color: #fff200;
+    vertical-align: 18%;
+}
+
+.menu .drop li {
+	border-bottom: 1px dashed #82b3da;
+	padding: 10px 0;
+    margin: 0 6px;
+}
+
+.ul_h li a span{display: none;}
+
+.ul_h li .fa{display: inline-block;}
+
+.menu .ul_h li:hover .drop, 
+.menu .ul_h li:hover .drop li:hover ul{display: none;}
+
+}
+
 
 @media only screen and (max-width: 999px){
 
@@ -1116,15 +1222,11 @@ header {padding-bottom: 0;}
 	
 .header{padding: 3px 0;}
 	
-.header .touch-menu:active {padding-bottom: 0;}
-	
-.default .touch-menu {padding-bottom: 0;}
-	
-.header.default{overflow-y: auto;}
-	
 .header .name_flag {display: none;}
 	
 .header .flag{display: block;}
+
+.header .menu .ul_h{margin-top: 0px;}
 	
 .menu_mini{padding-top: 15px;}
 	
@@ -1177,93 +1279,6 @@ header {padding-bottom: 0;}
 	padding-right: 2%;
 }
 
-.menu .nav_h{display: none;}
-
-.menu .ul_h{
-	border-radius: 2px;
-   	margin: 60px 0 20px;
-    	text-align: left;
-    	background: #82b3da;
-}
-
-.default .menu .ul_h{margin-top: 70px;}
-
-.menu .ul_h li{
-	display: block;
-}
-
-.menu .ul_h>li{
-	border-bottom: 1px solid #262262;
-	padding: 0;
-}
-
-.menu .ul_h li:last-child{border-bottom: none;}
-
-.ul_h li a {
-    color: #262262;
-    text-transform: lowercase;
-    letter-spacing: 1px;
-    font-size: 19px;
-}
-
-.ul_h .a_first{
-	width: 250px;
-    display: inline-block;
-    border-right: 1px solid #262262;
-    margin: 10px 6px;
-}
-
-.drop{
-	position: static;
-	background: #262262;
-    border-radius: 0;
-}
-
-.drop ul{text-align: center;}
-
-.drop li a{
-	color: #82b3da;
-    font-size: 14px;
-    text-transform: uppercase;
-    vertical-align: middle;
-}
-
-.drop li a:first-child{
-	display: inline-block;
-	width: 250px;
-}
-
-.touch-menu{
-	display: block;
-	margin: 0 0 0 89%;
-	text-align: center;
-}
-
-.menu .nav_h{
-	float: none;
-	margin: 0 auto;
-	width: 300px;
-}
-
-.ul_h>li a:hover {color: #b2b385f0;}
-
-.ul_h .drop ul li a {
-	color: #ff9900f0;
-    font-style: italic;
-}
-
-.menu .drop .fa {
-    font-size: 14px;
-    color: #fff200;
-    vertical-align: 18%;
-}
-
-.menu .drop li {
-	border-bottom: 1px dashed #82b3da;
-	padding: 10px 0;
-    margin: 0 6px;
-}
-
 .orph_info {text-align: left;}
 
 .orph_info {padding: 35px 10px 0 10px;}
@@ -1311,12 +1326,7 @@ header {padding-bottom: 0;}
 
 .orph_info h2{margin-bottom: 20px;}
 
-.ul_h li a span{display: none;}
 
-.ul_h li .fa{display: inline-block;}
-
-.menu .ul_h li:hover .drop, 
-.menu .ul_h li:hover .drop li:hover ul{display: none;}
 
 .foot .social {margin-top: 120px;}
 
@@ -1325,6 +1335,9 @@ header {padding-bottom: 0;}
 }
 
 @media only screen and (max-width: 530px){
+
+.header .menu .ul_h,
+.default .menu .ul_h{margin-top: 60px;}
 
 .end span {
     padding-top: 0;
