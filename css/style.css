@@ -1122,6 +1122,10 @@ header {padding-bottom: 0;}
 	
 .header.default{overflow-y: auto;}
 	
+.header .name_flag {display: none;}
+	
+.header .flag{display: block;}
+	
 .menu_mini{padding-top: 15px;}
 	
 .gratitude, .gratitude_1 {padding-top: 20px;}
