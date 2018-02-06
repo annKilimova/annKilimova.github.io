@@ -1114,12 +1114,7 @@ span.touch-menu{display: block;}
 
 header {padding-bottom: 0;}
 	
-.header{
-	max-height: 91px;
-    	padding: 3px 0;
-}
-	
-.header .touch-menu {padding-bottom: 130px;}
+.header{padding: 3px 0;}
 	
 .header .touch-menu:active {padding-bottom: 0;}
 	
