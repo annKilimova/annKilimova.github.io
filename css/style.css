@@ -1126,8 +1126,6 @@ header {padding-bottom: 0;}
 	
 .header .flag{display: block;}
 	
-.menu .ul_h{margin-top: 60px;}
-	
 .menu_mini{padding-top: 15px;}
 	
 .gratitude, .gratitude_1 {padding-top: 20px;}
@@ -1183,7 +1181,7 @@ header {padding-bottom: 0;}
 
 .menu .ul_h{
 	border-radius: 2px;
-   	margin: 20px 0;
+   	margin: 60px 0 20px;
     	text-align: left;
     	background: #82b3da;
 }
