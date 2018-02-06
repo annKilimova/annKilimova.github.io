@@ -1022,7 +1022,7 @@ span.touch-menu{display: block;}
 .inside>li:last-child, 
 .intra li:last-child{padding-bottom: 0;}
 
-@media only screen and (max-width: 1024px){
+@media only screen and (max-width: 1280px){
 header {padding-bottom: 61px;}
 
 .header .touch-menu:active,
